@@ -2,7 +2,7 @@
     "configurations": [
       {
         "type": "java",
-        "name": "WorkOrderProServiceApplication",
+        "name": "Shop Flow Pro",
         "request": "launch",
         "mainClass": "com.wsu.workorderproservice.WorkOrderProServiceApplication",
         "projectName": "microservices-assignment-1",

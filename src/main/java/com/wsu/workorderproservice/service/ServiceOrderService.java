@@ -54,10 +54,10 @@ public class ServiceOrderService {
     private ServiceOrderDTO mapToDto(ServiceOrder serviceOrder) {
         return ServiceOrderDTO.builder()
                 .id(serviceOrder.getId())
-                .vehicleId(serviceOrder.getVehicleId())
-                .mechanicId(serviceOrder.getMechanicId())
+                .vin(serviceOrder.getVin())
+                .MID(serviceOrder.getMID())
                 .serviceId(serviceOrder.getServiceId())
-                .orderDate(serviceOrder.getOrderDate())
+                .recievedDate(serviceOrder.getRecievedDate())
                 .status(serviceOrder.getStatus())
                 .build();
     }
